@@ -51,13 +51,14 @@ AXE_WALLET_URL=https://github.com/AXErunners/axe/releases/download/v1.4.1/axecor
 AXE_WALLET_ZIP=axecore-1.4.1-x86_64-linux-gnu.tar.gz
 AXE_WALLET_LOCAL=axecore-1.4.1
 P2POOL_FRONTEND=https://github.com/justino/p2pool-ui-punchy
-P2POOL_FRONTEND2=https://github.com/johndoe75/p2pool-node-status
+P2POOL_FRONTEND2=https://github.com/murphesi/p2pool-node-status
 P2POOL_FRONTEND3=https://github.com/hardcpp/P2PoolExtendedFrontEnd
 
 #
 # Install Prerequisites
 #
 cd ~
+sudo apt-get update
 sudo apt-get --yes install python-zope.interface python-twisted python-twisted-web python-dev
 sudo apt-get --yes install gcc g++
 sudo apt-get --yes install git
